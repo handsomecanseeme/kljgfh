@@ -18,16 +18,15 @@ $$/   $$/  $$$$$$/  $$$$$$$/  $$/        $$$$$$$/ $$/   $$/
 (__(__)___(__)__)
 
 ```
-                                                            
-## Quickstart                                                           
-                                                            
-### prerequisites
 
-Setup golang runtime, can be found in https://go.dev/dl/.
 
-Setup go-ethereum environment, can be found in https://github.com/ethereum/go-ethereum.
+# Auspex Tools Quickstart Guide
 
-Setup go-fuzz environment, can be found in https://github.com/dvyukov/go-fuzz.
+## Introduction
+
+Auspex Tools is a set of utilities designed to analyze and detect inconsistencies in Ethereum transaction fee mechanisms (TFM). The tool leverages fuzzing techniques to identify potential issues in smart contracts and the Ethereum blockchain.
+
+## Prerequisites
 
 ```shell
                       (`.-,')
@@ -41,13 +40,32 @@ Setup go-fuzz environment, can be found in https://github.com/dvyukov/go-fuzz.
  `-:;.-'
 ```
 
-### setup instructions
+Before you start, ensure you have the following dependencies installed:
+
+1. **Golang Runtime:**
+   - Download and install the latest version of Go from the official website: [https://go.dev/dl/](https://go.dev/dl/)
+   - Follow the installation instructions provided on the site.
+
+2. **Go-Ethereum Environment:**
+   - Clone the go-ethereum repository:
+     ```sh
+     git clone https://github.com/ethereum/go-ethereum.git
+     cd go-ethereum
+     make geth
+     ```
+   - Ensure `geth` is added to your PATH.
+
+3. **Go-Fuzz Environment:**
+   - Install go-fuzz:
+     ```sh
+     go install -v github.com/dvyukov/go-fuzz/go-fuzz@latest
+     go install -v github.com/dvyukov/go-fuzz/go-fuzz-build@latest
+     ```
+   - Add the `go-fuzz` and `go-fuzz-build` binaries to your PATH.
+
+## Setup Instructions
 
 ```shell
-
-cd ./Auspex_tools/cmd/auspex
-
-go-fuzz-build
 
  /\     /\
 {  `---'  }
@@ -62,12 +80,18 @@ go-fuzz-build
     (__/
 ```
 
-### run
+1. **Navigate to the Auspex Tools Directory:**
+   ```sh
+   cd ./Auspex_tools/cmd/auspex
+   ```
 
-go-fuzz #the result will appear in the "miaomiao" directory.
+2. **Build the Fuzzing Target**
+   ```sh
+go-fuzz-build
+   ```
 
+3.Running the Tool
 
-```shell
        _                        
        \`*-.                    
         )  _`-.                 
@@ -83,4 +107,8 @@ go-fuzz #the result will appear in the "miaomiao" directory.
          ; '   : :`-:     _.`* ;
 [bug] .*' /  .*' ; .*`- +'  `*' 
       `*-*   `*-*  `*-*'
-```
+
+1.**Start the Fuzzing Process**
+   ```sh
+go-fuzz -bin=auspex-fuzz.zip -workdir=workdir
+   ```
