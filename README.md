@@ -23,10 +23,11 @@ $$/   $$/  $$$$$$/  $$$$$$$/  $$/        $$$$$$$/ $$/   $$/
                                                             
 ### prerequisites
 
+Setup golang runtime, can be found in https://go.dev/dl/.
+
 Setup go-ethereum environment, can be found in https://github.com/ethereum/go-ethereum.
 
 Setup go-fuzz environment, can be found in https://github.com/dvyukov/go-fuzz.
-
 
 ```shell
                       (`.-,')
@@ -43,6 +44,11 @@ Setup go-fuzz environment, can be found in https://github.com/dvyukov/go-fuzz.
 ### setup instructions
 
 ```shell
+
+cd ./Auspex_tools/cmd/auspex
+
+go-fuzz-build
+
  /\     /\
 {  `---'  }
 {  O   O  }
@@ -57,6 +63,8 @@ Setup go-fuzz environment, can be found in https://github.com/dvyukov/go-fuzz.
 ```
 
 ### run
+
+go-fuzz #the result will appear in the "miaomiao" directory.
 
 
 ```shell
