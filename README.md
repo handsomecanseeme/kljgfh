@@ -86,7 +86,7 @@ Before you start, ensure you have the following dependencies installed:
    go-fuzz-build
    ```
 
-3.Running the Tool
+3.**Running the Tool**
 ```shell
        _                        
        \`*-.                    
