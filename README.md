@@ -24,18 +24,6 @@ $$/   $$/  $$$$$$/  $$$$$$$/  $$/        $$$$$$$/ $$/   $$/
 
 ## Prerequisites
 
-```shell
-                      (`.-,')
-                    .-'     ;
-                _.-'   , `,-
-          _ _.-'     .'  /._
-        .' `  _.-.  /  ,'._;)
-       (       .  )-| (
-        )`,_ ,'_,'  \_;)
-('_  _,'.'  (___,))
- `-:;.-'
-```
-
 Before you start, ensure you have the following dependencies installed:
 
 * [Ubuntu]()
@@ -65,21 +53,6 @@ Before you start, ensure you have the following dependencies installed:
    - Add the `go-fuzz` and `go-fuzz-build` binaries to your PATH.
 
 ## Setup Instructions
-
-```shell
-
- /\     /\
-{  `---'  }
-{  O   O  }
-~~>  V  <~~
- \  \|/  /
-  `-----'____
-  /     \    \_
- {       }\  )_\_   _
- |  \_/  |/ /  \_\_/ )
-  \__/  /(_/     \__/
-    (__/
-```
 
 1. **Navigate to the Auspex Tools Directory:**
    ```sh
