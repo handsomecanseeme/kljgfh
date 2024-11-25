@@ -59,7 +59,7 @@ You can use the following instructions to configure corresponding dependencies.
 
 3. **Running the Tool**
    ```shell
-   go-fuzz -bin=auspex-fuzz.zip -workdir=workdir
+   go-fuzz -bin=auspex-test -workdir=workdir
    ```
    ```shell
           _                        
