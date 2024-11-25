@@ -91,7 +91,7 @@ go-fuzz-build
    ```
 
 3.Running the Tool
-
+```shell
        _                        
        \`*-.                    
         )  _`-.                 
@@ -107,7 +107,7 @@ go-fuzz-build
          ; '   : :`-:     _.`* ;
 [bug] .*' /  .*' ; .*`- +'  `*' 
       `*-*   `*-*  `*-*'
-
+```
 1.**Start the Fuzzing Process**
    ```sh
 go-fuzz -bin=auspex-fuzz.zip -workdir=workdir
