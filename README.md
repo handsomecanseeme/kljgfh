@@ -93,6 +93,9 @@ Before you start, ensure you have the following dependencies installed:
 
 3. **Running the Tool**
    ```shell
+   go-fuzz -bin=auspex-fuzz.zip -workdir=workdir
+   ```
+   ```shell
           _                        
           \`*-.                    
            )  _`-.                 
@@ -108,7 +111,4 @@ Before you start, ensure you have the following dependencies installed:
             ; '   : :`-:     _.`* ;
    [bug] .*' /  .*' ; .*`- +'  `*' 
          `*-*   `*-*  `*-*'
-   ```
-   ```shell
-   go-fuzz -bin=auspex-fuzz.zip -workdir=workdir
    ```
