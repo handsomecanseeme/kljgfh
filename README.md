@@ -26,10 +26,12 @@ $$/   $$/  $$$$$$/  $$$$$$$/  $$/        $$$$$$$/ $$/   $$/
 
 Before you start, ensure you have the following dependencies installed:
 
-* [Ubuntu]()
-* [golang_runtime](https://go.dev/dl/](https://go.dev/dl/)
-* [go-ethererum](https://github.com/ethereum/go-ethereum)
-* [go-fuzz](github.com/dvyukov/go-fuzz/)
+- Ubuntu xxx LTS
+- Golang
+- Go-Ethereum
+- Go-Fuzz
+
+You can use the following instructions to configure corresponding dependencies.
 
 1. **Golang Runtime:**
    - Download and install the latest version of Go from the official website: [https://go.dev/dl/](https://go.dev/dl/)
