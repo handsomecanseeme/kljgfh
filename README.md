@@ -22,10 +22,6 @@ $$/   $$/  $$$$$$/  $$$$$$$/  $$/        $$$$$$$/ $$/   $$/
 
 # Auspex Tools Quickstart Guide
 
-## Introduction
-
-Auspex Tools is a set of utilities designed to analyze and detect inconsistencies in Ethereum transaction fee mechanisms (TFM). The tool leverages fuzzing techniques to identify potential issues in smart contracts and the Ethereum blockchain.
-
 ## Prerequisites
 
 ```shell
