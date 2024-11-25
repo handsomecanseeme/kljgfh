@@ -103,8 +103,5 @@ Before you start, ensure you have the following dependencies installed:
             ; '   : :`-:     _.`* ;
    [bug] .*' /  .*' ; .*`- +'  `*' 
          `*-*   `*-*  `*-*'
-   ```
-- **Start the Fuzzing Process**
-   ```sh
 go-fuzz -bin=auspex-fuzz.zip -workdir=workdir
    ```
