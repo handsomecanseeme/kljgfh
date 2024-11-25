@@ -87,23 +87,23 @@ Before you start, ensure you have the following dependencies installed:
    ```
 
 3. **Running the Tool**
-```shell
-       _                        
-       \`*-.                    
-        )  _`-.                 
-       .  : `. .                
-       : _   '  \               
-       ; *` _.   `*-._          
-       `-.-'          `-.       
-         ;       `       `.     
-         :.       .        \    
-         . \  .   :   .-'   .   
-         '  `+.;  ;  '      :   
-         :  '  |    ;       ;-. 
-         ; '   : :`-:     _.`* ;
-[bug] .*' /  .*' ; .*`- +'  `*' 
-      `*-*   `*-*  `*-*'
-```
+   ```shell
+          _                        
+          \`*-.                    
+           )  _`-.                 
+          .  : `. .                
+          : _   '  \               
+          ; *` _.   `*-._          
+          `-.-'          `-.       
+            ;       `       `.     
+            :.       .        \    
+            . \  .   :   .-'   .   
+            '  `+.;  ;  '      :   
+            :  '  |    ;       ;-. 
+            ; '   : :`-:     _.`* ;
+   [bug] .*' /  .*' ; .*`- +'  `*' 
+         `*-*   `*-*  `*-*'
+   ```
 1.**Start the Fuzzing Process**
    ```sh
 go-fuzz -bin=auspex-fuzz.zip -workdir=workdir
