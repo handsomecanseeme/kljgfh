@@ -87,7 +87,7 @@ Before you start, ensure you have the following dependencies installed:
 
 2. **Build the Fuzzing Target**
    ```sh
-go-fuzz-build
+   go-fuzz-build
    ```
 
 3.Running the Tool
