@@ -103,5 +103,7 @@ Before you start, ensure you have the following dependencies installed:
             ; '   : :`-:     _.`* ;
    [bug] .*' /  .*' ; .*`- +'  `*' 
          `*-*   `*-*  `*-*'
-go-fuzz -bin=auspex-fuzz.zip -workdir=workdir
+   ```
+   ```shell
+   go-fuzz -bin=auspex-fuzz.zip -workdir=workdir
    ```
