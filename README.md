@@ -24,6 +24,14 @@ $$/   $$/  $$$$$$/  $$$$$$$/  $$/        $$$$$$$/ $$/   $$/
 ### prerequisites
 
 ```shell
+
+Setup go-ethereum environment, can be found in https://github.com/ethereum/go-ethereum.
+
+Setup go-fuzz environment, can be found in https://hyperledger-fabric.readthedocs.io/en/release/prereqs.html.
+
+
+https://github.com/dvyukov/go-fuzz
+
                       (`.-,')
                     .-'     ;
                 _.-'   , `,-
