@@ -50,7 +50,7 @@ You can use the following instructions to configure corresponding dependencies.
 1. **Navigate to the Auspex Tools Directory:**
    ```sh
    unrar x auspex_tools.rar
-   cd ./Auspex_tools/cmd/auspex
+   cd ./auspex_tools/cmd/auspex
    ```
 
 2. **Build the Fuzzing Target**
